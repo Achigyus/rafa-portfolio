@@ -1407,3 +1407,24 @@
   color: #a1a1a9;
   line-height: 1.4;
 }
+
+.more_articles{
+  padding: 135px 0 172px;
+}
+
+.more_articles_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.morearticles.top-banner__inner{
+  justify-content: center;
+}
+
+.morearticles.top-banner__inner .top-banner__text p{
+  text-align: center;
+  margin-top: 22px;
+}
+
