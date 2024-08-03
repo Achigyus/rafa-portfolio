@@ -1334,6 +1334,15 @@
     padding: 12px 20px;
     gap: 12px;
   }
+
+  .individual_project{
+    flex-direction: column;
+  }
+
+  .individual_project_img_container, .individual_project_desc{
+    flex-basis: 100% !important; 
+  }
+  
 }
 
 
@@ -1428,3 +1437,26 @@
   margin-top: 22px;
 }
 
+.fh5co-books.individual_project{
+  margin-block-start: 60px;
+}
+
+.individual_project{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.individual_project_img_container{
+  flex-basis: 33%;
+}
+
+.individual_project_img_container img{
+  display: inline-block;
+  inline-size: 100%;
+}
+
+.individual_project_desc{
+  flex-basis: 66%;
+  text-align: justify;
+}
